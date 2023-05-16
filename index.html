@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Challenge Alura</title>
+</head>
+<body>
+
+  <main>
+
+    <section class="content-input">
+
+      <h1 class="title-logo">
+        <a class="logo-main" href="/"></a>
+      </h1>
+      
+      <section class="content-textarea">
+
+        <textarea class="text input-text" id="input-text" type="text" placeholder="Ingrese el texto aqui"></textarea>
+    
+        <div class="content-advertencia">
+          <i class="icon-advertencia"></i>
+          <span class="text-advertencia">Solo letras minúsculas y sin acentos</span>
+        </div>
+    
+      </section>
+    
+      <section class="content-btn">
+        
+        <button class="btn btn-encriptar" id="encriptar">Encriptar</button>
+      
+        <button class="btn btn-desencriptar" id="desencriptar">Desencriptar</button>
+    
+      </section>
+
+    </section>
+
+    <section class="content-output">
+
+      <div class="invisible content-output-message" id="content-output-message">
+        <textarea class="text output-text" id="output-text" cols="30" row="20"></textarea>
+        <button class="btn btn-copy" id="copy-text">Copiar</button>
+      </div>
+      <div class="content-output-no-message" id="content-output-no-message">
+        <i class="icon-muneco"></i>
+        <h2 class="title-no-message">Ningún mensaje fue encontrado</h2>
+        <p class="text-no-message">Ingresa el texto que desees encriptar o desencriptar</p>
+      </div>
+
+    </section>
+    
+  </main>
+
+  
+
+
+  <script type="module" src="./index.js"></script>
+
+
+</body>
+</html>
