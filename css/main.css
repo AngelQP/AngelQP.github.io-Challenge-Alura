@@ -251,5 +251,8 @@ body {
     height: 300px;
     width: 100%;
     background: url('../assets/svg/Muñeco.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
 }
