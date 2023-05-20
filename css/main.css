@@ -184,6 +184,28 @@ body {
   display: none;
 }
 
+.separator {
+  margin-top: 25px;
+}
+
+footer {
+  width: 100%;
+  padding-top: 30px;
+  font-size: 1.6rem;
+}
+
+.text-introduction {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: var(--gray-4);
+}
+
+.text-footer{
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--gray-5);
+}
+
 @media (min-width: 768px) {
 
   body {
@@ -254,5 +276,13 @@ body {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+  }
+
+  .text-introduction, .text-footer {
+    font-size: 1.8rem;
+  }
+
+  .separator {
+    margin: 0;
   }
 }
