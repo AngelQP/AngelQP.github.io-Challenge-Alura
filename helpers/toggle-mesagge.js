@@ -1,7 +1,7 @@
 import {outputText, contentOutputMessage, contentOutputNoMessage} from '../helpers/selectores.js'
 
 const toggleMessage = (text) => {
-  if(text !== "") {
+  if(text.trim() !== "") {
     outputText.value = "";
     outputText.value = text;
     contentOutputMessage.classList.remove('invisible');
